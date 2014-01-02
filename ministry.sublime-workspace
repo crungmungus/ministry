@@ -1,0 +1,306 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"side",
+				"sidebar"
+			],
+			[
+				"Clin",
+				"ClinicListView"
+			],
+			[
+				"Tr",
+				"TreatmentModifyService"
+			],
+			[
+				"in",
+				"initialize"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"Cl",
+				"ClinicTypes"
+			],
+			[
+				"Pro",
+				"Procedure"
+			],
+			[
+				"C",
+				"ClinicType"
+			],
+			[
+				"phone",
+				"phoneNumber"
+			],
+			[
+				"new",
+				"newClinicContact"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"Event",
+				"EventCollection"
+			],
+			[
+				"dire",
+				"directHit"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/sidebar/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/layout.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/styles/less/common/layout.less",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/navbar/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/styles/less/layout.less",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/sidebar/main.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/navbar/main.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/navigation/main.js",
+		"/C/Users/admin/AppData/Local/Temp/Rar$DRa0.254/dist/css/bootstrap.css",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.itemview.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.layout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/utils.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/home.main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/treatments.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/treatments.list.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/modules/main.less",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.application.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/director.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/router.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/bungle.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/clinics.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/ClinicPresenter.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/app.js",
+		"/C/Users/admin/Documents/architecture",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app-naked.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/services/ClinicCreateService.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/Layout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/models/ClinicModel.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/collections/ClinicCollection.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicFormView.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicList.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicForm.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/jg/Presenter.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicMain.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/backbone.subroute.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
+		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/MainLayout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/boot.js",
+		"/C/Users/admin/AppData/Local/Temp/Rar$DRa0.376/backbone.stickit.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/dummy/clinicTypes.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/backbone.marionette.js",
+		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.html",
+		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/calendar/appointment-from-select-view.js",
+		"/C/Users/admin/Documents/GitHub/jquery-patterns/demos/index-prototypal-inheritance.html",
+		"/C/Users/admin/Documents/GitHub/jquery-patterns/patterns/jquery.prototypal-inheritance.plugin-boilerplate.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app/templates/event-dialog.html",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CalendarView.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CreateEventView.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/searchView.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.controller.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/index.html",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/EventDialog.js",
+		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.application.js",
+		"/C/Users/admin/Documents/GitHub/idiomatic.js/readme.md",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/calendar/appointment-from-select-template.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/calendar/calendar-common.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\vendor",
+			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\library\\marionette"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"className",
+			"render",
+			"trigger",
+			"extend",
+			"TreatmentModifyService",
+			"ChildViewContainer",
+			"this.selected =",
+			"isNull",
+			"onContactSel",
+			"template",
+			"contactsel",
+			"phone",
+			"li>",
+			"li",
+			"clear.",
+			"addClass('sele",
+			"addClass('sel",
+			"addClass",
+			"contactValuechanged",
+			"contactValueChanged",
+			"this.model =",
+			"pp.utils.populateReminder",
+			"utils",
+			"newClinicContact",
+			"model",
+			"onSave",
+			"onToggleComplete",
+			"toggleContactMode",
+			"store",
+			"contactValueChanged",
+			"this.contactValueChanged();",
+			"contactValueChanged",
+			"contactchanged",
+			"_this",
+			"contactValueChanged",
+			"select2",
+			"onSaveOk",
+			".val",
+			"build",
+			"var input",
+			"#name",
+			"toggleContactMode",
+			"onContactSelected",
+			"popover"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ClinicModifyService"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 640.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/admin/Documents/projects/ava.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true
+}
