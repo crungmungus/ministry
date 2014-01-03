@@ -1,13 +1,18 @@
-define(['app'], function (app) {
+define(['app', 'routers/user', 'routers/dashboard'], function (app, UserRouter, DashRouter) {
   'use strict';
 
-  var Router = Backbone.SubRoute.extend({
+  var Router = Backbone.Router.extend({
     routes : {
-      '' : 'root'
+      'dashboard*subroute' : 'invokeDashModule',
+      'user*subroute' : 'invokeUserModule'
     },
 
-    root : function () {
+    invokeUserModule : function (subroute) {
+      new UserRouter('user');
+    },
 
+    invokeDashModule : function (subroute) {
+      new DashRouter('dashboard');
     }
   });
 

@@ -7,7 +7,7 @@ define(['app'], function (app) {
     },
 
     root : function () {
-
+      console.log('dashboard');
     }
   });
 

@@ -3,6 +3,7 @@ requirejs.config({
   paths: {
     text: 'vendor/text',
     presenters: 'app/presenters',
+    layouts: 'app/layouts',
     services: 'app/services',
     routers : 'app/routers',
     models : 'app/models',
@@ -10,9 +11,8 @@ requirejs.config({
     views: 'app/views',
     underscore : 'vendor/underscore-min',
     jquery : 'vendor/jquery.min',
-    backbone : 'vendor/backbone',
-    subroute : 'library/backbone.subroute',
-    bootstrap : 'vendor/bootstrap'
+    backbone : 'vendor/backbone-min',
+    subroute : 'vendor/backbone.subroute',
   },
 
   shim: {
@@ -23,36 +23,19 @@ requirejs.config({
       deps: ['underscore', 'jquery'],
       exports: 'Backbone'
     },
-    'bootstrap' : {
-      deps: ['jquery']
-    },
-    'library/marionette/backbone.marionette': {
+    'vendor/backbone.marionette': {
       deps: ['backbone'],
       exports: 'Backbone'
     },
-    'library/backbone.subroute' : {
+    'vendor/backbone.subroute' : {
       deps: ['backbone'],
       exports: 'Backbone'
-    },
-    'library/backbone.stickit' : {
-      deps: ['backbone'],
-      exports: 'Backbone'
-    },
-    'library/backbone.courier' : {
-      deps: ['backbone'],
-      exports: 'Backbone'
-    },
-    'library/utils' : {
-      deps: ['underscore'],
     },
     'app' : {
       deps : [
         'backbone',
-        'bootstrap',
-        'library/backbone.stickit',
-        'library/backbone.subroute',
-        'library/backbone.courier',
-        'library/marionette/backbone.marionette'
+        'vendor/backbone.subroute',
+        'vendor/backbone.marionette'
       ]
     }
   }
@@ -64,19 +47,16 @@ requirejs.config({
  */
 require([
   'app',
-  'library/utils',
-  'routers/router',
-  'views/layout',
-  'views/sidebar/main'
+  'routers/main',
+  'layouts/layout'
 ],
-function(app, utils, Router, Layout, Sidebar) {
+function(app, Router, Layout) {
   'use strict';
 
   // General app stuff.
   app.addInitializer(function(){
     app.layout = new Layout();
     app.layout.render();
-    app.utils = utils;
 
     $('body').prepend(app.layout.el);
   });
