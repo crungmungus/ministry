@@ -5,7 +5,7 @@
 define(['app'], function (app) {
   'use strict';
 
-  var Collection = Backbone.View.extend({
+  var Collection = Backbone.Collection.extend({
     url : '/api/hello',
 
     initialize : function () {

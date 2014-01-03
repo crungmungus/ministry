@@ -2,7 +2,7 @@
  * Main dashboard view.
  * Presents the user with the hello data and shortcuts to different places.
  */
-define(['app', 'text!templates/clinics/main.html'], function (app, template) {
+define(['app', 'text!templates/dashboard/main.html'], function (app, template) {
   'use strict';
 
   var View = Backbone.View.extend({

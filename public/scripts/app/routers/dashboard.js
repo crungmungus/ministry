@@ -1,4 +1,4 @@
-define(['app'], function (app) {
+define(['app', 'views/dashboard/main','collections/hello'], function (app, DashView, Hello) {
   'use strict';
 
   var Router = Backbone.SubRoute.extend({
@@ -7,7 +7,9 @@ define(['app'], function (app) {
     },
 
     root : function () {
-      console.log('dashboard');
+      var v = new DashView({
+        collection : new Hello()
+      });
     }
   });
 
