@@ -38,10 +38,9 @@ app.get('/logout', function(req, res){
 app.get('/api/hello',
   auth.check,
   function(req, res) {
-    res.send(hello.getActivity(1, function (err, data) {
-      console.log(data);
-      return data;
-    }));
+    hello.getActivity(1, function (data) {
+      res.send(data);
+    });
   });
 
 /**

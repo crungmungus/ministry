@@ -9,7 +9,7 @@ module.exports = {
 
       db.all('SELECT * FROM church WHERE ministry_id = ?', report.ministry.id, function (err, churches) {
         report.churches = churches;
-        return done(err, report);
+        return done(report);
       });
     });
   }
