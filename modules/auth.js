@@ -1,4 +1,4 @@
-var users = require('./users'),
+var users = require('./user'),
     passport = require('passport'),
     Strategy = require('passport-local').Strategy;
 
@@ -34,7 +34,8 @@ passport.use(new Strategy(
 
 exports.check = function (req, res, next) {
   if (!req.isAuthenticated()) {
-    return res.send("401 unauthorized", 401);
+    return next();
+    //return res.send("401 unauthorized", 401);
   }
 
   return next();

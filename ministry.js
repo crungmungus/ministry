@@ -3,10 +3,9 @@
  */
 var express  = require('express'),
     passport = require('passport'),
-    auth  = require('./modules/auth'),
-    churches = require('./modules/churches'),
     dummy = require('./data/dummy'),
-    users = require('./modules/users');
+    auth  = require('./modules/auth'),
+    hello = require('./modules/hello');
 
 var app = express();
 
@@ -24,7 +23,7 @@ app.configure(function () {
 app.post('/login',
   passport.authenticate('local'),
   function(req, res) {
-    res.end();
+    res.send(req.user);
   });
 
 app.get('/logout', function(req, res){
@@ -39,7 +38,10 @@ app.get('/logout', function(req, res){
 app.get('/api/hello',
   auth.check,
   function(req, res) {
-    res.send(dummy.hello);
+    res.send(hello.getActivity(1, function (err, data) {
+      console.log(data);
+      return data;
+    }));
   });
 
 /**
