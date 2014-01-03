@@ -1,3 +1,4 @@
+// Temporary placeholder namespace.
 var ministry = {
   routers : {}
 };
@@ -11,16 +12,6 @@ var Hello = Backbone.Collection.extend({
 
   initialize : function () {
     this.fetch();
-  }
-});
-
-/**
- * Main dashboard view.
- * Presents the user with the hello data and shortcuts to different places.
- */
-var DashboardView = Backbone.View.extend({
-  initialize : function () {
-    console.log('dashboard view loaded.');
   }
 });
 
@@ -76,5 +67,19 @@ var UserRouter = Backbone.SubRoute.extend({
   }
 });
 
-new MainRouter();
-Backbone.history.start();
+/**
+ * Main entry point.
+ */
+var app = new Marionette.Application();
+
+app.addInitializer(function(){
+  app.layout = new Layout();
+  app.layout.render();
+});
+
+app.addInitializer(function(){
+  new MainRouter();
+  Backbone.history.start();
+});
+
+app.start();
