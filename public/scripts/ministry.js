@@ -2,11 +2,25 @@ var ministry = {
   routers : {}
 };
 
-var Activities = Backbone.Collection.extend({
+/**
+ * Hello message.
+ * Not a serial collection but rather a composition of summary data.
+ */
+var Hello = Backbone.Collection.extend({
   url : '/api/hello',
 
   initialize : function () {
     this.fetch();
+  }
+});
+
+/**
+ * Main dashboard view.
+ * Presents the user with the hello data and shortcuts to different places.
+ */
+var DashboardView = Backbone.View.extend({
+  initialize : function () {
+    console.log('dashboard view loaded.');
   }
 });
 
@@ -39,7 +53,9 @@ var DashRouter = Backbone.SubRoute.extend({
   },
 
   home : function () {
-    var a = new Activities();
+    var view = new DashboardView({
+      collection : new Hello()
+    });
   }
 });
 
