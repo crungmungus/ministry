@@ -4,14 +4,15 @@ define([
   'app',
   'text!templates/churches/item.html'
 ],
-function (app, ChItemView, template) {
+function (app, template) {
   'use strict';
 
   var View = Backbone.Marionette.ItemView.extend({
-    tagName: "tr",
+    tagName : 'tr',
+    template : _.template(template),
 
-    initialize : function () {
-      this.template = template;
+    triggers: {
+      'click td': 'click:td'
     }
   });
 

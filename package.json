@@ -9,7 +9,8 @@
     "express": "~3.4.7",
     "passport": "~0.1.17",
     "passport-local": "~0.1.6",
-    "sqlite3": "~2.1.19"
+    "sqlite3": "~2.1.19",
+    "async": "~0.2.9"
   },
   "author": "James Gardner",
   "license": "BSD-2-Clause"

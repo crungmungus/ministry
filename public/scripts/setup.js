@@ -48,9 +48,10 @@ requirejs.config({
 require([
   'app',
   'routers/main',
-  'layouts/layout'
+  'layouts/layout',
+  'presenters/church'
 ],
-function(app, Router, Layout) {
+function(app, Router, Layout, ChurchPresenter) {
   'use strict';
 
   // General app stuff.
@@ -58,12 +59,17 @@ function(app, Router, Layout) {
     app.layout = new Layout();
     app.layout.render();
 
+    // TODO: Move this.
+    app.presenters = {
+      church : new ChurchPresenter()
+    };
+
     $('body').prepend(app.layout.el);
   });
 
   // Crank up the router.
   app.addInitializer(function(){
-    new Router();
+    app.router = new Router();
     Backbone.history.start();
   });
 

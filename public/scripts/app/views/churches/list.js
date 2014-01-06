@@ -13,8 +13,14 @@ function (app, ChItemView, template) {
 
     itemViewContainer: "tbody",
 
+    onItemClicked : function (v, obj) {
+      app.trigger('church:selected', v.model.id);
+      app.router.navigate('church' + '/' + v.model.id);
+    },
+
     initialize : function () {
       this.template = template;
+      this.listenTo(this, 'itemview:click:td', this.onItemClicked);
     }
   });
 
