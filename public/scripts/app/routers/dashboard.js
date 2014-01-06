@@ -7,9 +7,11 @@ define(['app', 'views/dashboard/main','collections/hello'], function (app, DashV
     },
 
     root : function () {
-      var v = new DashView({
+      var view = new DashView({
         collection : new Hello()
       });
+
+      app.layout.main.show(view);
     }
   });
 

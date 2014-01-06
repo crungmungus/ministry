@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Das",
+				"DashboardView"
+			],
+			[
+				"auth",
+				"authenticate"
+			],
+			[
+				"au",
+				"authenticate"
+			],
+			[
 				"side",
 				"sidebar"
 			],
@@ -84,13 +96,48 @@
 	},
 	"file_history":
 	[
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/layout.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/dashboard/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/setup.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/index.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/dashboard.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/collections/hello.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/dashboard/main.html",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/clinics/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/ministry.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/bootstrap.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/layouts/layout.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/user.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/app.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/index.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/routers/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/views/layout.js",
+		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/home.js",
+		"/C/Users/admin/Documents/GitHub/ministry/ministry.js",
+		"/C/Users/admin/Documents/GitHub/ministry/modules/auth.js",
+		"/C/Users/admin/Documents/GitHub/ministry/modules/hello.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/views/dashboard/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/data/dummy.js",
+		"/C/Users/admin/Documents/GitHub/ministry/modules/church.js",
+		"/C/Users/admin/Documents/GitHub/ministry/modules/users.js",
+		"/C/Users/admin/Documents/GitHub/ministry/modules/churches.js",
+		"/C/Users/admin/Documents/GitHub/ministry/modules/db.js",
+		"/C/Users/admin/Documents/GitHub/examples/aggregation/server.js",
+		"/C/Users/admin/Documents/GitHub/examples/aggregation/app/index.html",
+		"/C/Users/admin/Documents/GitHub/ministry/todo.md",
+		"/C/Users/admin/Documents/GitHub/ministry/node_modules/connect-ensure-login/README.md",
+		"/C/Users/admin/Documents/GitHub/ministry/package.json",
+		"/C/Users/admin/Documents/GitHub/ministry/views/login.ejs",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/sidebar/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/layout.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/styles/less/common/layout.less",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/navbar/main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/styles/less/layout.less",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/sidebar/main.html",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/navbar/main.html",
@@ -100,7 +147,6 @@
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.layout.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/utils.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/home.main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/treatments.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/treatments.list.js",
@@ -170,6 +216,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Activities",
+			"ministry",
+			"churches",
+			"users",
+			"DashboardRouter",
+			"console",
+			"checkUser",
+			"isAuthen",
+			"flash",
+			"ejs",
+			"flash",
+			"ensureAuthenticated",
 			"className",
 			"render",
 			"trigger",
@@ -221,6 +279,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Activity",
+			"warehouse",
+			"shops",
+			"DashRouter",
+			"getUser",
 			"ClinicModifyService"
 		],
 		"reverse": false,
