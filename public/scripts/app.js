@@ -4,7 +4,10 @@ define(function () {
   /**
    */
   var App = Marionette.Application.extend({
-
+    user : {
+      username : 'jamesg',
+      realname : 'James'
+    }
   });
 
   return new App();

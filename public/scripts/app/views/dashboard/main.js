@@ -4,20 +4,14 @@
  */
 define([
   'app',
-  'views/ministry/details',
+  'views/churches/list',
   'text!templates/dashboard/main.html'
 ],
-function (app, MnDetailsView, template) {
+function (app, ChListView, template) {
   'use strict';
 
-  var View = Backbone.Marionette.Layout.extend({
+  var View = Backbone.View.extend({
     id : 'dashboard',
-
-    regions : {
-      welcome  : '#welcome',
-      ministry : '#ministry',
-      churches : '#churches'
-    },
 
     initialize : function () {
       _.bindAll(this, 'onData');
@@ -37,9 +31,13 @@ function (app, MnDetailsView, template) {
       if(this.ready) {
         data = _.last(this.collection.models);
 
+        var t = new ChListView({
+          collection : data.get('churches')
+        });
+
         this.$el.html(_.template(this.template, {
-          ministry : data.get('ministry'),
-          churches : data.get('churches')
+          user : app.user,
+          ministry : data.get('ministry')
         }, { variable : 'data' }));
       }
 
