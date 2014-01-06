@@ -2,16 +2,13 @@
  */
 define([
   'app',
-  'views/churches/item',
-  'text!templates/churches/list.html'
+  'text!templates/churches/item.html'
 ],
 function (app, ChItemView, template) {
   'use strict';
 
-  var View = Backbone.Marionette.CompositeView.extend({
-    itemView : ChItemView,
-
-    itemViewContainer: "tbody",
+  var View = Backbone.Marionette.ItemView.extend({
+    tagName: "tr",
 
     initialize : function () {
       this.template = template;

@@ -10,8 +10,12 @@ define([
 function (app, ChListView, template) {
   'use strict';
 
-  var View = Backbone.View.extend({
+  var View = Backbone.Marionette.Layout.extend({
     id : 'dashboard',
+
+    regions : {
+      churches : '#churches'
+    },
 
     initialize : function () {
       _.bindAll(this, 'onData');
@@ -26,12 +30,12 @@ function (app, ChListView, template) {
     },
 
     render : function () {
-      var data;
+      var data, chListView;
 
       if(this.ready) {
         data = _.last(this.collection.models);
 
-        var t = new ChListView({
+        chListView = new ChListView({
           collection : data.get('churches')
         });
 
@@ -39,6 +43,8 @@ function (app, ChListView, template) {
           user : app.user,
           ministry : data.get('ministry')
         }, { variable : 'data' }));
+
+        this.churches.show(chListView);
       }
 
       return this.$el;
