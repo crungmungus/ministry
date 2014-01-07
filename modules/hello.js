@@ -1,5 +1,4 @@
-var db = require('./db'),
-    async = require('async');
+var db = require('./db');
 
 module.exports = {
   getActivity : function (user_id, done) {

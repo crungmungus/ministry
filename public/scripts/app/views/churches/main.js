@@ -11,7 +11,9 @@ function (app, template) {
 
   var View = Backbone.View.extend({
     render : function () {
-      this.$el.html(_.template(template));
+      this.$el.html(_.template(template, {
+        data : this.model.toJSON()
+      }));
 
       return this.$el;
     }

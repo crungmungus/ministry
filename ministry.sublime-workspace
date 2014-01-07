@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ch",
+				"chListView"
+			],
+			[
 				"Das",
 				"DashboardView"
 			],
@@ -71,6 +75,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "public/scripts/app/views/dashboard/main.js",
+			"settings":
+			{
+				"buffer_size": 1090,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/app/views/churches/list.js",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/templates/churches/list.html",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/templates/dashboard/main.html",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/app/views/churches/item.js",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,23 +140,35 @@
 	},
 	"file_history":
 	[
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/layout.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/dashboard/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/setup.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/index.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/dashboard.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/collections/hello.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/churches/item.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/churches/item.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/church.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/ministry/details.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/models/ministry.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/models/church.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/ministry/details.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/users/welcome.js",
 		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/dashboard/main.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/users/welcome.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/collections/hello.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/layout.html",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/dashboard.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/collections/churches.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/ministry/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/ministry/ministry.list.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/layouts/layout.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/setup.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/dashboard/main.js",
+		"/C/Users/admin/Documents/GitHub/ministry/public/index.html",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/clinics/main.js",
 		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/ministry.js",
 		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/bootstrap.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/layouts/layout.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/main.js",
 		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/user.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/app.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
 		"/C/Users/admin/Documents/GitHub/examples/sp-list/index.html",
 		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/routers/main.js",
@@ -204,7 +260,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\vendor",
@@ -295,8 +351,144 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/scripts/app/views/dashboard/main.js",
+					"settings":
+					{
+						"buffer_size": 1090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/scripts/app/views/churches/list.js",
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/scripts/templates/churches/list.html",
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/scripts/templates/dashboard/main.html",
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								482,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/scripts/app/views/churches/item.js",
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

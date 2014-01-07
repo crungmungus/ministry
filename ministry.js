@@ -5,6 +5,7 @@ var express  = require('express'),
     passport = require('passport'),
     dummy = require('./data/dummy'),
     auth  = require('./modules/auth'),
+    church = require('./modules/church'),
     hello = require('./modules/hello');
 
 var app = express();
@@ -51,6 +52,17 @@ app.put('/api/user/update',
   auth.check,
   function(req, res) {
 
+  });
+
+/**
+ * Returns a list of churches associated with user/ministry.
+ */
+app.get('/api/churches',
+  auth.check,
+  function(req, res) {
+    church.getAll(1, function (data) {
+      res.send(data);
+    });
   });
 
 app.listen(process.env.port || 3000);
