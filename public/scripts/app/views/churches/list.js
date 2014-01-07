@@ -11,6 +11,8 @@ function (app, ChItemView, template) {
   var View = Backbone.Marionette.CompositeView.extend({
     itemView : ChItemView,
 
+    tagName : 'table',
+
     itemViewContainer: "tbody",
 
     onItemClicked : function (v, obj) {
