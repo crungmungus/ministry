@@ -68,6 +68,7 @@ app.get('/api/churches',
 app.put('/api/churches/:id',
   auth.check,
   function(req, res) {
+    console.log(req.body.id);
     church.update(req.body, 1, function (err) {
       if(!err) {
         res.end();

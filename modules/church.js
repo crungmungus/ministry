@@ -9,15 +9,16 @@ module.exports = {
     });
   },
 
-  update : function (body, user_id, done) {
-  	db.run('UPDATE church SET address = ?, phone = ?, city = ?, country = ?, mission = ?, twitter = ? WHERE user_id = ?', [
+  update : function (body, user_id, church_id, done) {
+  	db.run('UPDATE church SET address = ?, phone = ?, city = ?, country = ?, mission = ?, twitter = ? WHERE user_id = ? AND id = ?', [
   		body.address,
   		body.phone,
   		body.city,
   		body.country,
   		body.mission,
   		body.twitter,
-  		user_id
+  		user_id,
+  		body.id
   	], done);
   }
 };
