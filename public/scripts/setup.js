@@ -35,7 +35,8 @@ requirejs.config({
       deps : [
         'backbone',
         'vendor/backbone.subroute',
-        'vendor/backbone.marionette'
+        'vendor/backbone.marionette',
+        'vendor/backbone.validation'
       ]
     }
   }
