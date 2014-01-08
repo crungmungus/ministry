@@ -7,5 +7,17 @@ module.exports = {
         return done(churches);
       });
     });
+  },
+
+  update : function (body, user_id, done) {
+  	db.run('UPDATE church SET address = ?, phone = ?, city = ?, country = ?, mission = ?, twitter = ? WHERE user_id = ?', [
+  		body.address,
+  		body.phone,
+  		body.city,
+  		body.country,
+  		body.mission,
+  		body.twitter,
+  		user_id
+  	], done);
   }
 };

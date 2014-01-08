@@ -1,1 +1,37 @@
-<p><%= data.name %></p>
+<h1>Today at <%= data.name %></h1>
+
+<div id="contact">
+	<header>
+		<h3>Contact Details</h3><a href="#" class="edit" data-block="contact">Edit</a>
+	</header>
+	<p>
+		<%= data.address %>
+		<%= data.city %>
+		<%= data.country %>
+		Twitter: <%= data.twitter %>
+	</p>
+	<div id="address-edit">
+		<form id="address-edit-form" class="edit-block">
+			<input id="address" name="address" value="<%= data.address %>" />
+			<input id="city" name="city" value="<%= data.city %>" />
+			<input id="country" name="country" value="<%= data.country %>" />
+			<input id="twitter" name="twitter" value="<%= data.twitter %>" />
+			<button>Save</button><button>Cancel</button>
+		</form>
+	</div>
+</div>
+
+<div id="mission-view">
+	<header>
+		<h3>Mission Statement</h3><a href="#" class="edit" data-block="mission">Edit</a>
+	</header>
+	<p><%= data.mission %></p>
+</div>
+<div id="mission-edit">
+	<form id="mission-edit-form" class="edit-block">
+		<textarea name="mission"><%= data.mission %></textarea>
+		<button>Save</button><button>Cancel</button>
+	</form>
+</div>
+
+<h3>Staff</h3>

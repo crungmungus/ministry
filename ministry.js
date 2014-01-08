@@ -65,4 +65,16 @@ app.get('/api/churches',
     });
   });
 
+app.put('/api/churches/:id',
+  auth.check,
+  function(req, res) {
+    church.update(req.body, 1, function (err) {
+      if(!err) {
+        res.end();
+      } else {
+        res.send(err);
+      }
+    });
+  });
+
 app.listen(process.env.port || 3000);
