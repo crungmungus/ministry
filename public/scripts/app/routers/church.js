@@ -7,7 +7,7 @@ define(['app'], function (app) {
     },
 
     showChurch : function (churchId) {
-      app.presenters.church.showChurch(churchId);
+      app.controllers.church.showChurch(churchId);
     },
   });
 

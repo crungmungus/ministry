@@ -19,7 +19,7 @@ function (app, template) {
     /**
      */
     onRender : function () {
-
+      console.log('layout ready.')
     }
   });
 

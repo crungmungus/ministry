@@ -6,7 +6,7 @@ define([
 function (app, ChCollection, ChurchView) {
   'use strict';
 
-  var Presenter = Backbone.Marionette.Controller.extend({
+  var Controller = Backbone.Marionette.Controller.extend({
     initialize : function () {
       this.collection = new ChCollection();
       this.listenTo(app, 'church:selected', this.showChurch);
@@ -25,5 +25,5 @@ function (app, ChCollection, ChurchView) {
     }
   });
 
-  return Presenter;
+  return Controller;
 });

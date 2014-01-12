@@ -3,11 +3,11 @@ define(['app'], function (app) {
 
   var Router = Backbone.SubRoute.extend({
     routes : {
-      '' : 'root',
+      ':userId' : 'showUser'
     },
 
-    root : function () {
-      console.log('user screen');
+    showUser : function (userId) {
+      app.controllers.user.showUser(userId);
     },
   });
 

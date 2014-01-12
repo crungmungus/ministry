@@ -2,7 +2,7 @@
 requirejs.config({
   paths: {
     text: 'vendor/text',
-    presenters: 'app/presenters',
+    controllers: 'app/controllers',
     layouts: 'app/layouts',
     services: 'app/services',
     routers : 'app/routers',
@@ -50,9 +50,10 @@ require([
   'app',
   'routers/main',
   'layouts/layout',
-  'presenters/church'
+  'controllers/church',
+  'controllers/user'
 ],
-function(app, Router, Layout, ChurchPresenter) {
+function(app, Router, Layout, ChController, UsController) {
   'use strict';
 
   // General app stuff.
@@ -61,8 +62,9 @@ function(app, Router, Layout, ChurchPresenter) {
     app.layout.render();
 
     // TODO: Move this.
-    app.presenters = {
-      church : new ChurchPresenter()
+    app.controllers = {
+      church : new ChController(),
+      user   : new UsController()
     };
 
     $('body').prepend(app.layout.el);

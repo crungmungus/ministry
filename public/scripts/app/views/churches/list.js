@@ -13,8 +13,6 @@ function (app, ChItemView, template) {
 
     tagName : 'table',
 
-    itemViewContainer: "tbody",
-
     onItemClicked : function (v, obj) {
       app.trigger('church:selected', v.model.id);
       app.router.navigate('church' + '/' + v.model.id);

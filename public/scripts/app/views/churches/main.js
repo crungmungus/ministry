@@ -4,18 +4,30 @@
  */
 define([
   'app',
+  'collections/users',
+  'views/users/list',
   'text!templates/churches/main.html'
 ],
-function (app, template) {
+function (app, UsCollection, UsListView, template) {
   'use strict';
 
-  var View = Backbone.View.extend({
+  var View = Backbone.Marionette.Layout.extend({
     events : {
       'submit .edit-block' : 'onBlockSave'
     },
 
+    regions : {
+      users : '#user-list'
+    },
+
     initialize : function () {
       this.listenTo(this.model, 'change', this.onModelChange);
+
+      this.usListView = new UsListView({
+        collection : new UsCollection({
+          church : this.model.id
+        })
+      });
     },
 
     onBlockSave : function () {
@@ -23,7 +35,6 @@ function (app, template) {
       this.model.set('city', this.$('#city').val());
       this.model.set('country', this.$('#country').val());
       this.model.set('twitter', this.$('#twitter').val());
-
       this.model.set('mission', this.$('#mission-edit-form textarea').val());
 
       this.model.save();
@@ -36,10 +47,17 @@ function (app, template) {
     },
 
     render : function () {
-      this.$el.html(_.template(template, {
+      var html =  _.template(template, {
         data : this.model.toJSON()
-      }));
+      });
 
+      this.$el.html(html);
+
+      // Temporary.
+      this.usListView.collection.fetch().done(_.bind(function () {
+        this.users.show(this.usListView);
+      },this));
+      
       return this.$el;
     }
   });

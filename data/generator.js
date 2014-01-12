@@ -1046,7 +1046,7 @@ var streets = [
   '4607 Harvest Woods'
 ];
 
-churches = [
+var churches = [
   'first baptist church',
   'church of christ',
   'first united methodist church',
@@ -1067,6 +1067,10 @@ churches = [
   'assembly of god church',  
   'new hope baptist church', 
   'zion lutheran church',
+];
+
+var blogs = [
+  
 ];
 
 var i = 0, iterations = 200, address, city, country;

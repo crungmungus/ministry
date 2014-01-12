@@ -6,6 +6,7 @@ var express  = require('express'),
     dummy = require('./data/dummy'),
     auth  = require('./modules/auth'),
     church = require('./modules/church'),
+    user = require('./modules/user'),
     hello = require('./modules/hello');
 
 var app = express();
@@ -68,13 +69,20 @@ app.get('/api/churches',
 app.put('/api/churches/:id',
   auth.check,
   function(req, res) {
-    console.log(req.body.id);
     church.update(req.body, 1, function (err) {
       if(!err) {
         res.end();
       } else {
         res.send(err);
       }
+    });
+  });
+
+app.get('/api/users/church/:id',
+  auth.check,
+  function(req, res) {
+    user.getUsersByChurchId(req.params.id, function (err, data) {
+      res.send(data);
     });
   });
 
