@@ -13,5 +13,15 @@ module.exports = {
   	}
 
   	db.all(query, church_id, done);
-  }
+  },
+
+  save : function (church_id, body, done) {
+  	console.log(body);
+  	db.run('UPDATE blog SET title = ?, body = ? WHERE church_id = ? AND id = ?', [
+  		body.title,
+  		body.body,
+  		body.church_id,
+  		body.id
+  	], done);
+  } 
 };

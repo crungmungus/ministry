@@ -13,16 +13,20 @@ function (app, BgView, PsView, PsCollection) {
       this.listenTo(app, 'post:selected', this.showPost);
     },
 
-    showBlog : function (postId) {
+    showBlog : function (churchId) {
       console.log('nothing here.');
     },
 
-    showPost : function (postId) {
-      var view = new PsView({
-        model : this.collection.get(postId)
-      });
+    showPost : function (churchId, postId) {
+      this.collection.church = churchId;
+      
+      this.collection.fetch().then(_.bind(function () {
+        var view = new PsView({
+          model : this.collection.get(postId)
+        });
 
-      app.layout.main.show(view);
+        app.layout.main.show(view);
+      }, this));
     }
   });
 

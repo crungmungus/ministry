@@ -3,11 +3,16 @@ define(['app'], function (app) {
 
   var Router = Backbone.SubRoute.extend({
     routes : {
+      ':churchId' : 'showBlog',
       ':churchId/:postId' : 'showPost'
     },
 
+    showBlog : function (churchId) {
+      app.controllers.blog.showBlog(churchId);
+    },
+
     showPost : function (churchId, postId) {
-      app.controllers.blog.showPost(postId);
+      app.controllers.blog.showPost(churchId, postId);
     },
   });
 
