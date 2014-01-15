@@ -6,9 +6,11 @@ define([
   'app',
   'collections/users',
   'views/users/list',
+  'collections/posts',
+  'views/blog/list',
   'text!templates/churches/main.html'
 ],
-function (app, UsCollection, UsListView, template) {
+function (app, UsCollection, UsListView, PsCollection, PsListView, template) {
   'use strict';
 
   var View = Backbone.Marionette.Layout.extend({
@@ -17,7 +19,8 @@ function (app, UsCollection, UsListView, template) {
     },
 
     regions : {
-      users : '#user-list'
+      users : '#user-list',
+      posts : '#post-list'
     },
 
     initialize : function () {
@@ -25,6 +28,12 @@ function (app, UsCollection, UsListView, template) {
 
       this.usListView = new UsListView({
         collection : new UsCollection({
+          church : this.model.id
+        })
+      });
+
+      this.psListView = new PsListView({
+        collection : new PsCollection({
           church : this.model.id
         })
       });
@@ -56,6 +65,14 @@ function (app, UsCollection, UsListView, template) {
       // Temporary.
       this.usListView.collection.fetch().done(_.bind(function () {
         this.users.show(this.usListView);
+      },this));
+
+      this.psListView.collection.fetch({
+        data : {
+          limit : 10
+        }
+      }).done(_.bind(function () {
+        this.posts.show(this.psListView);
       },this));
       
       return this.$el;

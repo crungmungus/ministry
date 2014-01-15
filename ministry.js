@@ -7,6 +7,7 @@ var express  = require('express'),
     auth  = require('./modules/auth'),
     church = require('./modules/church'),
     user = require('./modules/user'),
+    post = require('./modules/post'),
     hello = require('./modules/hello');
 
 var app = express();
@@ -81,7 +82,15 @@ app.put('/api/churches/:id',
 app.get('/api/users/church/:id',
   auth.check,
   function(req, res) {
-    user.getUsersByChurchId(req.params.id, function (err, data) {
+    user.getByChurchId(req.params.id, function (err, data) {
+      res.send(data);
+    });
+  });
+
+app.get('/api/posts/church/:id',
+  auth.check,
+  function(req, res) {
+    post.getByChurchId(req.params.id, req.query.limit, function (err, data) {
       res.send(data);
     });
   });

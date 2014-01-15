@@ -10,6 +10,7 @@ requirejs.config({
     collections : 'app/collections',
     views: 'app/views',
     underscore : 'vendor/underscore-min',
+    moment : 'vendor/moment',
     jquery : 'vendor/jquery.min',
     backbone : 'vendor/backbone-min',
     subroute : 'vendor/backbone.subroute',
@@ -51,9 +52,10 @@ require([
   'routers/main',
   'layouts/layout',
   'controllers/church',
-  'controllers/user'
+  'controllers/user',
+  'controllers/blog'
 ],
-function(app, Router, Layout, ChController, UsController) {
+function(app, Router, Layout, ChController, UsController, BgController) {
   'use strict';
 
   // General app stuff.
@@ -64,7 +66,8 @@ function(app, Router, Layout, ChController, UsController) {
     // TODO: Move this.
     app.controllers = {
       church : new ChController(),
-      user   : new UsController()
+      user   : new UsController(),
+      blog   : new BgController()
     };
 
     $('body').prepend(app.layout.el);

@@ -1,4 +1,4 @@
 <td><%= username %></td>
 <td><%= title %></td>
-<td><%= last_seen %></td>
+<td><%= moment(last_seen).format('MMMM Do YYYY, h:mm:ss a') %></td>
 <td><a href="#" class="edit">Edit</a></td>

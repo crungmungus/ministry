@@ -13,7 +13,7 @@ module.exports = {
     db.get('SELECT id, username, last_seen FROM user WHERE id = ?', user_id, done);
   },
 
-  getUsersByChurchId : function (church_id, done) {
+  getByChurchId : function (church_id, done) {
   	db.all('SELECT id, username, title, last_seen FROM user WHERE church_id = ?', church_id, done);
   }
 };
