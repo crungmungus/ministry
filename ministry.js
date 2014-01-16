@@ -14,7 +14,8 @@ var app = express();
 
 app.configure(function () {
   app.use(express.cookieParser());
-  app.use(express.bodyParser());
+  app.use(express.json());
+  app.use(express.urlencoded());
   app.use(express.methodOverride());
   app.use(express.session({ secret: 'keyboard cat' }));
   app.use(passport.initialize());
@@ -100,3 +101,4 @@ app.put('/api/posts/church/:church_id/:id',
   });
 
 app.listen(process.env.port || 3000);
+console.log('Server started on port ' + process.env.port);
