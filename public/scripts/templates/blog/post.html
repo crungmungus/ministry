@@ -1,5 +1,13 @@
 <form>
-	<input id="post-title" name="title" value="<%= title %>">
-	<textarea name="body" id="post-body"><%= body %></textarea>
-	<button class="post-save" type="submit">Save</button><button class="post-publish">Save and Publish</button>
+	<input id="post-title" name="title" value="<%= data.title %>">
+	<textarea name="body" id="post-body"><%= data.body %></textarea>
+	<label for="publish">
+		<input type="checkbox" name="published" id="published" <% if(data.published == 1) { %> checked="checked" <% } %> />
+		Live 
+	</label>
+	<label for="comments">
+		<input type="checkbox" name="comments" id="comments" <% if(data.published == 1) { %> checked="checked" <% } %> />
+		Allow comments 
+	</label>
+	<button class="post-save" type="submit">Save</button>
 </form>

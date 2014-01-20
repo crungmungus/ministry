@@ -95,8 +95,20 @@ app.get('/api/posts/church/:id',
 app.put('/api/posts/church/:church_id/:id',
   auth.check,
   function(req, res) {
-    post.save(req.params.church_id, req.body, function (err) {
+    post.edit(req.params.church_id, req.body, function (err) {
       res.end();
+    });
+  });
+
+app.post('/api/posts/church/:church_id',
+  auth.check,
+  function(req, res) {
+    post.save(req.params.church_id, req.body, function (err) {
+      if(err) {
+        res.send(err)
+      } else {
+        res.end();
+      }
     });
   });
 

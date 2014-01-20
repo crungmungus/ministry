@@ -15,7 +15,8 @@ function (app, UsCollection, UsListView, PsCollection, PsListView, template) {
 
   var View = Backbone.Marionette.Layout.extend({
     events : {
-      'submit .edit-block' : 'onBlockSave'
+      'submit .edit-block' : 'onBlockSave',
+      'click .post-new' : 'onNewPost'
     },
 
     regions : {
@@ -37,6 +38,12 @@ function (app, UsCollection, UsListView, PsCollection, PsListView, template) {
           church : this.model.id
         })
       });
+    },
+
+    onNewPost : function () {
+      app.trigger('post:create', this.model.id);
+
+      app.router.navigate('blog' + '/' + this.model.id + '/new-post');
     },
 
     onBlockSave : function () {

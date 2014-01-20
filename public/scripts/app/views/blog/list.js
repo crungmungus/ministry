@@ -13,6 +13,10 @@ function (app, PsItemView, template) {
 
     tagName : 'table',
 
+    events : {
+      
+    },
+
     onItemClicked : function (v) {
       app.trigger('post:selected', v.model.get('church_id'), v.model.id);
       app.router.navigate('blog' + '/1/' + v.model.id);

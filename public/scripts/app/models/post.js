@@ -1,9 +1,16 @@
-define(['app'], function (app) {
+define(['app', 'vendor/backbone.validation'], function (app) {
   'use strict';
 
-  return Backbone.Model.extend({
+  var Model = Backbone.Model.extend({
 		validation: {
-	  	// rules to go here.  
-  	}  	
+			title : {
+			  required: true
+			},
+			body : {
+		    required: true
+		  }
+		}
   });
+
+  return Model;
 });

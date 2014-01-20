@@ -11,6 +11,7 @@ function (app, BgView, PsView, PsCollection) {
     initialize : function () {
       this.collection = new PsCollection();
       this.listenTo(app, 'post:selected', this.showPost);
+      this.listenTo(app, 'post:create', this.showPost);
     },
 
     showBlog : function (churchId) {
@@ -18,11 +19,16 @@ function (app, BgView, PsView, PsCollection) {
     },
 
     showPost : function (churchId, postId) {
-      this.collection.church = churchId;
+      console.log(churchId);
       
+      var view;
+
+      this.collection.church = churchId;
+
       this.collection.fetch().then(_.bind(function () {
-        var view = new PsView({
-          model : this.collection.get(postId)
+        view = new PsView({
+          postId : postId,
+          collection : this.collection
         });
 
         app.layout.main.show(view);
