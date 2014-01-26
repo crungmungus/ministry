@@ -58,15 +58,6 @@ require([
 function(app, Router, Layout, ChController, UsController, BgController) {
   'use strict';
 
-  _.extend(Backbone.Validation.callbacks, {
-    valid: function(view, attr, selector) {
-      console.log(arguments);
-    },
-    invalid: function(view, attr, error, selector) {
-      console.log(arguments);
-    }
-  });
-
   // General app stuff.
   app.addInitializer(function(){
     app.layout = new Layout();

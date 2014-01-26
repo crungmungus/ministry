@@ -2,13 +2,14 @@
  */
 define([
   'app',
+  'views/form',
   'models/post',
   'text!templates/blog/post.html'
 ],
-function (app, PsModel, template) {
+function (app, Form, PsModel, template) {
   'use strict';
 
-  var View = Backbone.View.extend({
+  var View = Form.extend({
     events : {
       'submit' : 'onPostSave',
     },
@@ -22,14 +23,14 @@ function (app, PsModel, template) {
         this.model = new PsModel();
       }
 
-      Backbone.Validation.bind(this);
+      Form.prototype.initialize.apply(this, arguments);
     },
 
     onPostSave : function () {
       var comments, published;
 
       published = ($('#published').prop('checked')) ? 1 : 0;
-      comments = ($('#comments').prop('checked')) ? 1 : 0;
+      comments  = ($('#comments').prop('checked')) ? 1 : 0;
 
       this.model.set('title', $('#post-title').val());
       this.model.set('body', $('#post-body').val());
@@ -42,8 +43,6 @@ function (app, PsModel, template) {
         } else {
           this.model.save();
         }
-      } else {
-        console.log('invalid');
       }
       
       return false;
