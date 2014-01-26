@@ -42,7 +42,9 @@ function (app, PsModel, template) {
         } else {
           this.model.save();
         }
-      } 
+      } else {
+        console.log('invalid');
+      }
       
       return false;
     },

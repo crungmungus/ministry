@@ -1,13 +1,22 @@
-<form>
-	<input id="post-title" name="title" value="<%= data.title %>">
-	<textarea name="body" id="post-body"><%= data.body %></textarea>
-	<label for="publish">
-		<input type="checkbox" name="published" id="published" <% if(data.published == 1) { %> checked="checked" <% } %> />
-		Live 
-	</label>
-	<label for="comments">
-		<input type="checkbox" name="comments" id="comments" <% if(data.published == 1) { %> checked="checked" <% } %> />
-		Allow comments 
-	</label>
-	<button class="post-save" type="submit">Save</button>
+<form role="form">
+	<div class="form-group">
+		<label for="title">Title</label>
+		<input id="post-title" name="title" class="form-control" value="<%= data.title %>">
+	</div>
+	<div class="form-group">
+		<label for="title">Article</label>
+		<textarea name="body" id="post-body" class="form-control"><%= data.body %></textarea>
+	</div>
+	<div class="form-group">
+		<label for="publish">
+			<input type="checkbox" name="published" id="published" <% if(data.published == 1) { %> checked="checked" <% } %> />
+			Publish 
+		</label>
+		<label for="comments">
+			<input type="checkbox" name="comments" id="comments" <% if(data.published == 1) { %> checked="checked" <% } %> />
+			Allow comments 
+		</label>
+	</div>
+	<button class="btn btn-primary post-save">Save</button>
+	<button class="btn btn-defaukt">Cancel</button>
 </form>

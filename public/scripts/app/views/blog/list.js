@@ -13,6 +13,8 @@ function (app, PsItemView, template) {
 
     tagName : 'table',
 
+    className : 'table',
+
     events : {
       
     },

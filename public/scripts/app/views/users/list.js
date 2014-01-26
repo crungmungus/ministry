@@ -13,6 +13,8 @@ function (app, UsItemView, template) {
 
     tagName : 'table',
 
+    className : 'table',
+
     onItemClicked : function (v, obj) {
       app.trigger('user:selected', v.model.id);
       app.router.navigate('user' + '/' + v.model.id);

@@ -4,87 +4,136 @@
 		"selected_items":
 		[
 			[
-				"church",
+				"publish",
+				"published_at"
+			],
+			[
+				"us",
+				"usListView"
+			],
+			[
+				"chur",
 				"churchId"
 			],
 			[
-				"ch",
-				"chListView"
+				"me",
+				"messenger"
 			],
 			[
-				"Das",
-				"DashboardView"
+				"cont",
+				"contact"
 			],
 			[
-				"auth",
-				"authenticate"
+				"Mes",
+				"Messenger"
 			],
 			[
-				"au",
-				"authenticate"
+				"current",
+				"currentTarget"
 			],
 			[
-				"side",
-				"sidebar"
+				"to",
+				"toggleMessenger"
 			],
 			[
-				"Clin",
-				"ClinicListView"
+				"ap",
+				"appointmentFromSidebar"
 			],
 			[
-				"Tr",
-				"TreatmentModifyService"
+				"pal",
+				"paletteId"
 			],
 			[
-				"in",
-				"initialize"
+				"text",
+				"text-align"
 			],
 			[
-				"co",
-				"collection"
+				"var",
+				"Variable"
 			],
 			[
-				"Cl",
-				"ClinicTypes"
+				"data",
+				"data-clipboard-text"
 			],
 			[
-				"Pro",
-				"Procedure"
+				"get",
+				"getSessionDomains"
 			],
 			[
-				"C",
-				"ClinicType"
+				"check",
+				"check_pin_url"
 			],
 			[
-				"phone",
-				"phoneNumber"
-			],
-			[
-				"new",
-				"newClinicContact"
-			],
-			[
-				"se",
-				"selected"
-			],
-			[
-				"Event",
-				"EventCollection"
-			],
-			[
-				"dire",
-				"directHit"
+				"text-",
+				"text-transform"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "public/scripts/app/presenters/church.js",
+			"file": "ministry.js",
 			"settings":
 			{
-				"buffer_size": 639,
+				"buffer_size": 2505,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modules/post.js",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/app/views/blog/post.js",
+			"settings":
+			{
+				"buffer_size": 1300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/app/controllers/blog.js",
+			"settings":
+			{
+				"buffer_size": 880,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/app/collections/posts.js",
+			"settings":
+			{
+				"buffer_size": 451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/app/views/churches/main.js",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/scripts/setup.js",
+			"settings":
+			{
+				"buffer_size": 2106,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "This group should actually be called 'I hate what Great Britain has become'. Nobody calls our country Great Britain anymore and there's a good reason for that. \n\nI cast my mind back to fond memories of kinder times.",
+			"settings":
+			{
+				"buffer_size": 215,
+				"line_ending": "Windows",
+				"name": "This group should actually be called 'I hate what"
 			}
 		}
 	],
@@ -112,124 +161,134 @@
 	},
 	"file_history":
 	[
-		"/C/Users/admin/Documents/require.md",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/churches/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/collections/churches.js",
-		"/C/Users/admin/Documents/GitHub/ministry/ministry.js",
-		"/C/Users/admin/Documents/GitHub/ministry/modules/church.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/churches/main.html",
-		"/C/Users/admin/Documents/GitHub/ministry/modules/hello.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/setup.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/dashboard/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/churches/list.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/churches/list.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/dashboard/main.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/churches/item.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/churches/item.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/church.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/ministry/details.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/models/ministry.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/models/church.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/ministry/details.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/users/welcome.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/users/welcome.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/collections/hello.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/templates/layout.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/dashboard.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/ministry/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/views/ministry/ministry.list.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/layouts/layout.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/index.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/clinics/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/ministry.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/bootstrap.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/routers/user.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/layout.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/app/app.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/index.html",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/routers/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/views/layout.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/home.js",
-		"/C/Users/admin/Documents/GitHub/ministry/modules/auth.js",
-		"/C/Users/admin/Documents/GitHub/ministry/public/scripts/views/dashboard/main.js",
-		"/C/Users/admin/Documents/GitHub/ministry/data/dummy.js",
-		"/C/Users/admin/Documents/GitHub/ministry/modules/users.js",
-		"/C/Users/admin/Documents/GitHub/ministry/modules/churches.js",
-		"/C/Users/admin/Documents/GitHub/ministry/modules/db.js",
-		"/C/Users/admin/Documents/GitHub/examples/aggregation/server.js",
-		"/C/Users/admin/Documents/GitHub/examples/aggregation/app/index.html",
-		"/C/Users/admin/Documents/GitHub/ministry/todo.md",
-		"/C/Users/admin/Documents/GitHub/ministry/node_modules/connect-ensure-login/README.md",
-		"/C/Users/admin/Documents/GitHub/ministry/package.json",
-		"/C/Users/admin/Documents/GitHub/ministry/views/login.ejs",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/sidebar/main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/layout.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/index.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/styles/less/common/layout.less",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/navbar/main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/styles/less/layout.less",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/sidebar/main.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/templates/navbar/main.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/navigation/main.js",
-		"/C/Users/admin/AppData/Local/Temp/Rar$DRa0.254/dist/css/bootstrap.css",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.itemview.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.layout.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/utils.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/home.main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/treatments.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/treatments.list.js",
-		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/modules/main.less",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/marionette.application.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/director.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/router.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/bungle.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/main.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/routers/clinics.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/presenters/ClinicPresenter.js",
-		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/app.js",
-		"/C/Users/admin/Documents/architecture",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app-naked.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/services/ClinicCreateService.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/Layout.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/models/ClinicModel.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/collections/ClinicCollection.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicFormView.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicList.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicForm.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/jg/Presenter.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/templates/ClinicMain.html",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/backbone.subroute.js",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/app/scripts/app.js",
-		"/C/Users/admin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/app/views/MainLayout.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/boot.js",
-		"/C/Users/admin/AppData/Local/Temp/Rar$DRa0.376/backbone.stickit.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/dummy/clinicTypes.js",
-		"/C/Users/admin/Documents/GitHub/examples/sp-list/app/scripts/library/marionette/backbone.marionette.js",
-		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.html",
-		"/C/Users/admin/Documents/GitHub/examples/plugins/dropdown.js",
-		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/calendar/appointment-from-select-view.js",
-		"/C/Users/admin/Documents/GitHub/jquery-patterns/demos/index-prototypal-inheritance.html",
-		"/C/Users/admin/Documents/GitHub/jquery-patterns/patterns/jquery.prototypal-inheritance.plugin-boilerplate.js",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app/templates/event-dialog.html",
-		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CalendarView.js",
-		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/CreateEventView.js",
-		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/searchView.js",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.controller.js",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/index.html",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/app.js",
-		"/C/Users/admin/Documents/GitHub/examples/appointments/app/scripts/views/EventDialog.js",
-		"/C/Users/admin/Documents/GitHub/examples/supervising-presenter/scripts/library/marionette.application.js",
-		"/C/Users/admin/Documents/GitHub/idiomatic.js/readme.md",
-		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/calendar/appointment-from-select-template.html",
-		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/calendar/calendar-common.less"
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/routers/blog.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/controllers/blog.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/blog/post.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/models/post.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/setup.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/collections/posts.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/blog/post.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/churches/main.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/churches/main.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/blog/list.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/blog/list.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/modules/post.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/ministry.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/services/posts.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/blog/main.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/blog/main.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/blog/item.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/blog/item.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/users/item.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/vendor/moment.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/routers/main.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/modules/user.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/modules/blog.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/data/generator.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/controllers/church.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/collections/users.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/users/main.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/controllers/user.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/users/main.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/routers/user.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/users/list.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/routers/church.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/dashboard/main.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/churches/list.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/users/item.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/users/list.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/layouts/layout.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/vendor/backbone.marionette.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/modules/church.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/models/church.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/dashboard/main.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/presenters/church.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/churches/list.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/churches/item.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/templates/layout.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/presenters/ChurchPresenter.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/app/views/churches/item.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/list.item.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/app/views/treatments/list.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/templates/treatments/list-item.html",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/app/views/clinics/main.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicListView.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/app/views/ClinicItemView.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/index.html",
+		"/C/Users/Amber/Documents/GitHub/ministry/public/scripts/ministry.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/app/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/ministry/ministry.sublime-workspace",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/index.html",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/styles/less/kara.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/styles/less/layout.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/styles/less/main.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/sidebar/clinic-contact-view.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/contacts/contact-history.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/contacts/contact-history-item.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/contacts/contact-history.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/contacts/contact-history-item.mini.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/contacts/contact-history-item.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/contacts/contact-overview-template.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/models/history-item.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/modules/contacts.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/sidebar/clinic-contact-template.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/library/utils.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/collections/contact-history-items.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/common/type.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/vendor/bootstrap-2.3.0/js/bootstrap.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/library/dummy/contact-history.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/common/mixins.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/collections/history-items.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/sidebar/sidebar-view.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/messages/messages.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/messages/_messages.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/modules/messages.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/modules/contact-card.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/css/calendar/navigation.less",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/library/helpers/messenger.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/views/contacts/contact-expanded-view.js",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/messages/_messages.mini.html",
+		"/C/opt/whatclinic/src/ava/ui/src/main/resources/web/crm/static/latest/js/calendar/templates/sidebar/sidebar-template.html",
+		"/C/windows/System32/drivers/etc/hosts",
+		"/C/Users/Amber/.gitconfig",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/styles/less/navigation.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/app/scripts/vendor/color.js",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/server.js",
+		"/C/Users/Amber/Documents/GitHub/examples/sp-list/index.html",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/index.html",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/styles/less/layout.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/scripts/vendor/color.js",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal-bootstap-baconized/scripts/vendor/jquery-BaconIpsum.js",
+		"/C/Users/Amber/Documents/word out to matt",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/responsive.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/offers.less",
+		"/C/Users/Amber/Documents/what-wasdone",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/index.html",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/main.less",
+		"/C/Users/Amber/AppData/Local/Temp/7zO45A4.tmp/icons.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/font-awesome.less",
+		"/C/Users/Amber/Documents/GitHub/examples/skeletal/styles/less/menu.less",
+		"/C/Users/Amber/AppData/Local/Temp/7zO49AD.tmp/icons.less",
+		"/C/Users/Amber/AppData/Local/Temp/7zO2413.tmp/mixins.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/scripts/app.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/scripts/terms.js",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/faqs.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/layout.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/footer.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/mixins.less",
+		"/C/inetpub/wwwroot/skeletal/signup.html",
+		"/C/inetpub/wwwroot/skeletal/styles/less/forms.less",
+		"/C/inetpub/wwwroot/skeletal/styles/less/type.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/header.less",
+		"/C/Users/Amber/Documents/GitHub/vouchercloud-idl/IDL.Web.VoucherCloud/Content/23.0.0/mobile/styles/less/search.less",
+		"/C/inetpub/wwwroot/skeletal/styles/less/responsive.less"
 	],
 	"find":
 	{
@@ -237,12 +296,22 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
-			"C:\\Users\\admin\\Documents\\GitHub\\ministry\\public",
-			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\vendor",
-			"C:\\Users\\admin\\Documents\\GitHub\\examples\\sp-list\\app\\scripts\\library\\marionette"
+			"C:\\Users\\Amber\\Documents\\GitHub\\ministry\\public\\scripts",
+			"C:\\opt\\whatclinic\\src\\ava\\ui\\src\\main\\resources\\web\\crm\\static\\latest\\js",
+			"C:\\opt\\whatclinic\\src\\ava\\ui\\src\\main\\resources\\web\\crm\\static\\latest\\css\\calendar",
+			"C:\\opt\\whatclinic\\src\\ava\\ui\\src\\main\\resources\\web\\crm\\static\\latest\\js\\calendar\\views",
+			"C:\\opt\\whatclinic\\src\\ava\\ui\\src\\main\\resources\\web\\crm\\static\\latest\\js\\calendar\\templates",
+			"C:\\opt\\whatclinic\\src\\ava\\ui\\src\\main\\resources\\web\\crm\\static\\latest\\js\\calendar\\views\\treatments",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles\\less\\modules",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles",
+			"C:\\git\\vouchercloud-idl\\IDL.Web.ControlCloud\\Content\\styles\\less\\bootstrap",
+			"D:\\src\\holding pages\\za",
+			"D:\\src\\bootstrap\\vc-mobile",
+			"D:\\src\\bootstrap\\vc-mobile\\styles\\less\\bootstrap",
+			""
 		]
 	},
 	"find_state":
@@ -250,64 +319,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"this.config.default",
-			"default",
-			"Activities",
-			"ministry",
+			"?",
+			"'",
+			"`",
+			"true",
+			"amd",
+			"user",
+			"blog",
+			"()\n",
+			"churchId",
 			"churches",
-			"users",
-			"DashboardRouter",
-			"console",
-			"checkUser",
-			"isAuthen",
-			"flash",
-			"ejs",
-			"flash",
-			"ensureAuthenticated",
-			"className",
+			"onRender",
+			"Layout",
+			"mission",
+			"data-section",
+			"\"",
+			"test",
+			"Shape",
+			"test",
+			"  '",
+			"data-target",
+			"collapse",
+			"Reminder: ",
+			"Confirmed: ",
+			"history-item-holder",
+			"touch-device",
+			"setGate",
+			"setGate	",
+			"togg",
+			"messen",
 			"render",
-			"trigger",
-			"extend",
-			"TreatmentModifyService",
-			"ChildViewContainer",
-			"this.selected =",
-			"isNull",
-			"onContactSel",
-			"template",
-			"contactsel",
-			"phone",
-			"li>",
-			"li",
-			"clear.",
-			"addClass('sele",
-			"addClass('sel",
-			"addClass",
-			"contactValuechanged",
-			"contactValueChanged",
-			"this.model =",
-			"pp.utils.populateReminder",
-			"utils",
-			"newClinicContact",
-			"model",
-			"onSave",
-			"onToggleComplete",
-			"toggleContactMode",
-			"store",
-			"contactValueChanged",
-			"this.contactValueChanged();",
-			"contactValueChanged",
-			"contactchanged",
 			"_this",
-			"contactValueChanged",
-			"select2",
-			"onSaveOk",
-			".val",
-			"build",
-			"var input",
-			"#name",
-			"toggleContactMode",
-			"onContactSelected",
-			"popover"
+			"clinic-contact-tem",
+			"contact-card-extra",
+			"action",
+			"action-su",
+			"messages.ren",
+			"renderClinicContacts",
+			"render:",
+			"_this",
+			"toggle",
+			"messages",
+			"SMS",
+			"icon-comment",
+			"details",
+			"margin-top",
+			".details",
+			".merchant",
+			"merchant",
+			"awesome",
+			" <p class=\"expires\">Hurry, expires tomorrow!</p>",
+			"caveat",
+			"faq",
+			"type=",
+			"vc mweb icon font",
+			";\n",
+			"search",
+			"view-all",
+			"14px",
+			"search",
+			"categories",
+			"22px",
+			"</h5></a>",
+			" <a href=\"#\" data-collapse=\"true\"><h5>",
+			"terms",
+			"<h5>First segment lorem ipsum dolor</h5>",
+			"<h5>Segment lorem ipsum</h5>",
+			"min-height",
+			".icon-restaurants",
+			"banner",
+			"terms",
+			"009ed9",
+			"terms",
+			"blank",
+			"category",
+			".categories",
+			".category",
+			"categories",
+			"exclu",
+			"line-height: 30",
+			"search-menu",
+			"@gray_dark",
+			"@gray_",
+			"h2",
+			"dddddd",
+			"ddddd",
+			".copy",
+			"footer",
+			"view-all",
+			"view",
+			"panel",
+			"expire",
+			"expore",
+			"offer",
+			"pffer",
+			"near",
+			"arrow",
+			".search",
+			"chevron",
+			".search",
+			";\n",
+			"#329c4f",
+			"#e5a228",
+			"color",
+			"#404040",
+			"color",
+			"#a5a5a5",
+			"a5a5a5",
+			"color:",
+			"margin-top: 10px;",
+			"margin",
+			"margin-top: 20px;",
+			"padding: 20px",
+			"footer",
+			"search",
+			"place",
+			"padding: 20px;",
+			"nav",
+			"menu",
+			"main-nav",
+			"20px",
+			"30px",
+			"menu",
+			"5px",
+			"20px",
+			"px",
+			"menu",
+			"search",
+			"78px"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -315,12 +454,125 @@
 		"regex": false,
 		"replace_history":
 		[
-			"Activity",
-			"warehouse",
-			"shops",
-			"DashRouter",
-			"getUser",
-			"ClinicModifyService"
+			"'test'",
+			"\"",
+			"'",
+			"blog",
+			"post",
+			"userId",
+			"users",
+			"address",
+			"data-block",
+			"'",
+			"SuperClass",
+			"",
+			" ",
+			"",
+			"custom",
+			"</a></h5>",
+			"<h5><a href=\"#\" data-collapse=\"true\">",
+			"<a href=\"#\" data-collapse=\"true\"><h5>Segment lorem ipsum</h5></a>",
+			"@green",
+			"@orange",
+			"@gray_dark",
+			"@gray",
+			"margin-top: @base_gutter * 2 / 2",
+			"margin-top: @base_gutter * 2",
+			"padding: @base_gutter * 2",
+			"10px",
+			"15px",
+			"10px",
+			"@search_height",
+			"/",
+			"<span>£5 off when you spend £20 in-store lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</span>",
+			"ipsum.",
+			"../fonts/",
+			"custom",
+			"class=\"exclusive online",
+			"<div class=\"info\">",
+			"<p class=\"exclusive\">Exclusive</p>",
+			"<i class=\"exclusive\">Exclusive</i>",
+			"'../../images/",
+			"giftcloud.co.uk",
+			"<li>",
+			"@{images}",
+			"",
+			"dealcloud.co.uk",
+			"",
+			"dealcloud.co.uk",
+			"href=\"http://aws.invitationdigital.co.uk/Invitation Digital Directions.pdf\" target=\"_blank\"",
+			"max-width : 800px",
+			".icon-",
+			" class=\"heading\"",
+			"\"",
+			"",
+			"5.5.0.0",
+			"/5.6.0.1/",
+			"/",
+			"/5.6.0.1/images/",
+			"",
+			" <tr><td align=\"left\" height=\"15\" style=\" line-height: 15px;\"></td></tr>",
+			" <tr><td align=\"middle\" height=\"15\" style=\" line-height: 15px;\"></td></tr>",
+			"<h3>Email headline goes here</h3>",
+			"/5.2.0.1/images/",
+			"",
+			"/5.2.0.1/images",
+			"Canada",
+			"New Zealand",
+			"Australia",
+			"<li><a href=\"http://pinterest.com/vouchercloud/\" target=\"_blank\"><i class=\"icon-pinterest\"></i></a></li>",
+			".icon-",
+			"icon-",
+			"http://d6ori12lvugze.cloudfront.net/emailer/images/",
+			"../images/",
+			"http://d6ori12lvugze.cloudfront.net/",
+			"<img src=\"http://d6ori12lvugze.cloudfront.ne/email-images/",
+			"http://d6ori12lvugze.cloudfront.ne/email-images/",
+			"",
+			"exclusive_banner.png",
+			"-",
+			"background-position:",
+			"background-position: ",
+			"\\",
+			"dcMerchantColor",
+			"dcPanelBgColor",
+			"top",
+			"left",
+			"height",
+			"width",
+			"this",
+			"  ",
+			" ",
+			"\\s",
+			"name",
+			"dev.creativeplantation.com/vcresemail/images/",
+			"<meta name=\"viewport\" content=\"user-scalable=no,width=device-width\" />",
+			"pull-right",
+			"pull-left",
+			"",
+			"<div class=\"info\" style=\"display:none\">",
+			"<i class=\"icon-angle-right\"></i>",
+			" <i class=\"icon-angle-right\"></i>\n              <div class=\"info\">\n                <p>Bacon ipsum dolor sit amet pork rump pork loin beef meatloaf fatback frankfurter chuck t-bone ball tip drumstick tail shank bacon turducken.</p>\n              </div>",
+			"icon-angle-right",
+			"",
+			"<i class=\"icon-info-sign\" style=\"display: none\"></i>",
+			"class=\"add-to-cart\"",
+			"<a href=\"#\" data-action=\"add-to-cart\">",
+			"<i class=\"icon-info-sign\" style=\"display: none\">",
+			"<a href=\"#\"><i class=\"icon-info-sign\"></i></a>",
+			"icon-info-sign",
+			"  <small>Street Name, Town</small>                     ",
+			"redeem.html",
+			"<a href=\"find-stores.html\"> ",
+			"class=\"offer\"",
+			"",
+			"\\",
+			"/",
+			"\"",
+			"'",
+			"\"",
+			" ",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -331,23 +583,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/scripts/app/presenters/church.js",
+					"file": "ministry.js",
 					"settings":
 					{
-						"buffer_size": 639,
+						"buffer_size": 2505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								591,
-								591
+								2250,
+								2250
 							]
 						],
 						"settings":
@@ -355,6 +607,200 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "modules/post.js",
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1092,
+								1092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/scripts/app/views/blog/post.js",
+					"settings":
+					{
+						"buffer_size": 1300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1071,
+								1071
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/scripts/app/controllers/blog.js",
+					"settings":
+					{
+						"buffer_size": 880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/scripts/app/collections/posts.js",
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/scripts/app/views/churches/main.js",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/scripts/setup.js",
+					"settings":
+					{
+						"buffer_size": 2106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1628,
+								1628
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"auto_name": "This group should actually be called 'I hate what",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -371,7 +817,7 @@
 	},
 	"input":
 	{
-		"height": 34.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -396,10 +842,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.find_results":
-	{
-		"height": 640.0
-	},
 	"replace":
 	{
 		"height": 62.0
@@ -420,7 +862,7 @@
 		[
 			[
 				"",
-				"/C/Users/admin/Documents/projects/ava.sublime-project"
+				"/D/src/app options screen/app-options-screen.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -429,6 +871,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 273.0,
+	"side_bar_width": 235.0,
 	"status_bar_visible": true
 }
