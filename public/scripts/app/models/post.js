@@ -9,6 +9,12 @@ define(['app', 'vendor/backbone.validation'], function (app) {
 			body : {
 		    required: true
 		  }
+		},
+
+		isRecent : function () {
+			var age = moment(new Date()).diff(this.get('created_at'), 'days');
+
+			return (age < 3);
 		}
   });
 

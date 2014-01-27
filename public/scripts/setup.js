@@ -18,26 +18,30 @@ requirejs.config({
 
   shim: {
     'underscore': {
-      exports: '_'
+      exports : '_'
     },
     'backbone': {
-      deps: ['underscore', 'jquery'],
-      exports: 'Backbone'
+      deps : ['underscore', 'jquery'],
+      exports : 'Backbone'
+    },
+    'vendor/bootstrap' : {
+      deps : ['jquery']
     },
     'vendor/backbone.marionette': {
-      deps: ['backbone'],
-      exports: 'Backbone'
+      deps : ['backbone'],
+      exports : 'Backbone'
     },
     'vendor/backbone.subroute' : {
-      deps: ['backbone'],
-      exports: 'Backbone'
+      deps : ['backbone'],
+      exports : 'Backbone'
     },
     'app' : {
       deps : [
         'backbone',
         'vendor/backbone.subroute',
         'vendor/backbone.marionette',
-        'vendor/backbone.validation'
+        'vendor/backbone.validation',
+        'vendor/bootstrap'
       ]
     }
   }

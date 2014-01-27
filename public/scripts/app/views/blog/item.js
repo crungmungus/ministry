@@ -14,6 +14,13 @@ function (app, moment, template) {
 
     triggers: {
       'click .entry': 'click:entry'
+    },
+
+    serializeData : function () {
+      var data = this.model.toJSON();
+          data.recent = this.model.isRecent();
+
+      return data;
     }
   });
 

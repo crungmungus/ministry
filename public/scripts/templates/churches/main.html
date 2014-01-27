@@ -1,13 +1,15 @@
 <h1>Today at <%= data.name %></h1>
 
-<div id="contact">
-	<h3>Contact Details</h3><a href="#" class="edit" data-block="contact">Edit</a>
-	<address>
-		<%= data.address %>
-		<%= data.city %>
-		<%= data.country %>
-		Twitter: <%= data.twitter %>
-	</address>
+<ul class="nav nav-tabs" id="main-tabs">
+  <li class="active"><a href="#" data-toggle="tab" data-name="home">Church</a></li>
+  <li><a href="#" data-toggle="tab" data-name="profile">Profile</a></li>
+  <li><a href="#" data-toggle="tab" data-name="settings">Settings</a></li>
+</ul>
+
+<br />
+
+<div id="settings" class="tab">
+	<h3>Contact Details</h3>
 	<div id="address-edit">
 		<form role="form" id="address-edit-form" class="edit-block">
 			<div class="form-group">
@@ -32,27 +34,37 @@
 	</div>
 </div>
 
-<div id="mission-view">
+<div id="profile" class="tab profile">
 	<header>
-		<h3>Mission Statement</h3><a href="#" class="edit" data-block="mission">Edit</a>
+		<h3>Mission Statement</h3>
 	</header>
-	<p><%= data.mission %></p>
-</div>
-<div id="mission-edit">
-	<form role="form" id="mission-edit-form" class="edit-block">
-		<div class="form-group">
-			<textarea name="mission" class="form-control"><%= data.mission %></textarea>
-			<span class="help-block">Describe your church's beliefs, principles etc</span>
-		</div>
-		<button class="btn btn-primary">Save</button>
-		<button class="btn btn-default">Cancel</button>
-	</form>
+	<div id="mission-edit">
+		<form role="form" id="mission-edit-form" class="edit-block">
+			<div class="form-group">
+				<textarea name="mission" class="form-control"><%= data.mission %></textarea>
+				<span class="help-block">Describe your church's beliefs, principles etc</span>
+			</div>
+			<button class="btn btn-primary">Save</button>
+			<button class="btn btn-default">Cancel</button>
+		</form>
+	</div>
 </div>
 
-<h3>Blog</h3>
-<div id="post-list"></div>
-<button class="btn btn-primary post-new">Post New</button>
-
-<h3>Staff</h3>
-<div id="user-list"></div>
-<button class="btn btn-primary">Invite</button>
+<div id="general" class="tab">
+	<div class="panel panel-default">
+	  <div class="panel-heading">Manage Blog Posts <button class="btn btn-xs pull-right"><i class="glyphicon glyphicon-cog"></i></button></div>
+	  <div class="panel-body">
+	    <div id="post-list"></div>
+	    <hr />
+			<button class="btn btn-primary post-new">Post New</button>
+	  </div>
+	</div>
+	<div class="panel panel-default">
+	  <div class="panel-heading">Staff</div>
+	  <div class="panel-body">
+	    <div id="user-list"></div>
+	    <hr />
+			<button class="btn btn-primary post-new">Send Invigation</button>
+	  </div>
+	</div>
+</div>

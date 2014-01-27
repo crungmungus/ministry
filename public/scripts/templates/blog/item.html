@@ -1,3 +1,3 @@
-<td><a href="#" class="entry"><%= title %></a></td>
+<td><a href="#" class="entry"><%= title %></a> <% if(recent) { %><span class="badge">new</span><% } %></td>
 <td>No Comments</td>
 <td><%= moment(created_at).format('MMMM Do YYYY, h:mm:ss a') %></td>

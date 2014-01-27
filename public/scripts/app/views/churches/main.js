@@ -16,7 +16,8 @@ function (app, UsCollection, UsListView, PsCollection, PsListView, template) {
   var View = Backbone.Marionette.Layout.extend({
     events : {
       'submit .edit-block' : 'onBlockSave',
-      'click .post-new' : 'onNewPost'
+      'click .post-new' : 'onNewPost',
+      'click .nav-tabs li' : 'onTabSelected'
     },
 
     regions : {
@@ -62,12 +63,32 @@ function (app, UsCollection, UsListView, PsCollection, PsListView, template) {
       this.render();
     },
 
+    onTabSelected : function (e) {
+      var view, selector, tab = $(e.target);
+
+      view = tab.attr('data-name');
+      if(view) {
+        if(view === 'settings') {
+          selector = '#settings';
+        } else if (view === 'profile') {
+          selector = '#profile';
+        } else {
+          selector = '#general';
+        }
+
+        this.$('.tab').hide();
+        this.$(selector).show();
+      }
+    },
+
     render : function () {
       var html =  _.template(template, {
         data : this.model.toJSON()
       });
 
       this.$el.html(html);
+      this.$('.tab').hide();
+      this.$('#general').show();
 
       // Temporary.
       this.usListView.collection.fetch().done(_.bind(function () {

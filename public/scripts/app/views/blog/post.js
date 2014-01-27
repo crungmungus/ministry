@@ -49,9 +49,11 @@ function (app, Form, PsModel, template) {
     },
 
     render : function () {
-      this.$el.html(_.template(template, this.model.attributes, {
-        variable : 'data'
-      }));
+      this.$el.html(_.template(template, {
+        title : this.model.get('title'),
+        body : this.model.get('body'),
+        edit : !this.model.isNew()
+      }, { variable : 'data' }));
 
       return this.$el;
     }
