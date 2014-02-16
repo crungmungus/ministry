@@ -12,28 +12,20 @@ var express  = require('express'),
 
 var app = express();
 
+app.set('views', __dirname + '/views');
+app.set('view engine', 'jade');
+
 app.configure(function () {
-  app.use(express.cookieParser());
-  app.use(express.json());
-  app.use(express.urlencoded());
-  app.use(express.methodOverride());
-  app.use(express.session({ secret: 'keyboard cat' }));
-  app.use(passport.initialize());
-  app.use(passport.session());
   app.use(app.router);
   app.use(express.static(__dirname + '/public'));
 });
 
-app.post('/login',
-  passport.authenticate('local'),
-  function(req, res) {
-    res.send(req.user);
-  });
-
-app.get('/logout', function(req, res){
-  req.logout();
-  res.end();
+/**
+ */
+app.get('/', function(req, res) {
+  res.render('index');
 });
+
 
 /**
  * Dashboard update.

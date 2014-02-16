@@ -2,7 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/Amber/Documents/GitHub/ministry"
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }
